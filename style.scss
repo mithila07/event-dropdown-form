@@ -78,6 +78,7 @@ body {
             transform: rotate(0deg) translateY(-50%);
             left: calc(100% - 160px);
             top: 36px;
+            opacity: 0.25;
         }
 
         &::after {
