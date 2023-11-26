@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="events" class="event-form">
+        <label for="eventDropdown">Select Event(s):</label>
+        <div class="dropdown">
+            <input id="searchEvent" oninput="filterEvents()" type="text" class="dropdown__input"
+                placeholder="Search events">
+            <ul id="eventDropdown" class="dropdown__panel">
+                <li value="1">Summer Party – 15:00 7th July 2023</li>
+                <li value="2">Christmas Party – 19:00 18th Dec 2023</li>
+                <li value="3">Half Marathon – 13:00 15th Sept 2024</li>
+            </ul>
+            <button type="button" class="dropdown__btn" onclick="submitForm()">Submit</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
