@@ -2,7 +2,8 @@
 :root {
   --base-dark-color: #22242A;
   --base-light-color: #FEFEFE;
-  --primary-blue-200: #1F59EC;
+  --primary-blue-100: #1F59EC;
+  --primary-blue-200: #0A39AE;
   --primary-blue-300: #21356A;
   --accent-gray-100: #ABB3C7;
   --accent-gray-200: #9A9EA5;
@@ -60,6 +61,23 @@ body {
   gap: 0.5em;
   position: relative;
 }
+.event-form .dropdown::before, .event-form .dropdown::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 8px 0 8px;
+  border-color: var(--accent-gray-200) transparent transparent transparent;
+  transform: rotate(0deg) translateY(-50%);
+  left: calc(100% - 160px);
+  top: 36px;
+  opacity: 0.25;
+}
+.event-form .dropdown::after {
+  top: calc(50% - 16px);
+  transform: rotate(180deg) translateY(-50%);
+}
 .event-form .dropdown__panel {
   position: absolute;
   top: calc(100% + 0.5em);
@@ -79,6 +97,7 @@ body {
   color: var(--accent-gray-200);
   display: flex;
   flex-direction: column;
+  transition: all ease-in-out 0.3s;
 }
 .event-form .dropdown__panel li:not(:last-child) {
   margin-bottom: 0.2em;
@@ -126,21 +145,27 @@ body {
   padding-inline: 1em;
   font-size: 1.2rem;
   outline: none;
-  transition: all ease-in 0.1s;
+  transition: all ease-in-out 0.3s;
 }
 .event-form .dropdown__input:hover {
   box-shadow: 0 0 0 2px var(--primary-blue-300);
 }
 .event-form .dropdown__input:active, .event-form .dropdown__input:focus {
-  border-color: var(--primary-blue-200);
+  border-color: var(--primary-blue-100);
   box-shadow: 0 0 0 4px var(--primary-blue-300);
+}
+.event-form .dropdown__input::-moz-placeholder {
+  color: var(--accent-gray-100);
+}
+.event-form .dropdown__input::placeholder {
+  color: var(--accent-gray-100);
 }
 .event-form .dropdown__btn {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--base-light-color);
-  background-color: var(--primary-blue-200);
+  background-color: var(--primary-blue-100);
   height: 60px;
   border-radius: 0.5em;
   border: 0;
@@ -148,4 +173,8 @@ body {
   width: fit-content;
   padding-inline: 1.5em;
   cursor: pointer;
+  transition: background-color ease-in-out 0.3s;
+}
+.event-form .dropdown__btn:hover {
+  background-color: var(--primary-blue-200);
 }/*# sourceMappingURL=style.css.map */
