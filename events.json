@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Summer Party",
+    "date": "15:00 • 7th July 2023"
+  },
+  {
+    "id": 2,
+    "name": "Christmas Party",
+    "date": "19:00 • 18th Dec 2023"
+  },
+  {
+    "id": 3,
+    "name": "Half Marathon",
+    "date": "13:00 • 15th Sept 2024"
+  },
+  {
+    "id": 4,
+    "name": "Art Exhibition",
+    "date": "14:30 • 25th Feb 2023"
+  },
+  {
+    "id": 5,
+    "name": "Tech Conference",
+    "date": "10:00 • 5th May 2023"
+  },
+  {
+    "id": 6,
+    "name": "Book Club Meeting",
+    "date": "18:00 • 12th Aug 2023"
+  },
+  {
+    "id": 7,
+    "name": "Film Festival",
+    "date": "20:00 • 3rd Nov 2023"
+  },
+  {
+    "id": 8,
+    "name": "Charity Auction",
+    "date": "16:45 • 21st June 2023"
+  },
+  {
+    "id": 9,
+    "name": "Fashion Show",
+    "date": "19:30 • 8th Oct 2023"
+  },
+  {
+    "id": 10,
+    "name": "Gaming Tournament",
+    "date": "12:00 • 14th July 2023"
+  },
+  {
+    "id": 11,
+    "name": "Science Fair",
+    "date": "9:30 • 2nd March 2024"
+  },
+  {
+    "id": 12,
+    "name": "Wine Tasting",
+    "date": "17:00 • 10th April 2023"
+  },
+  {
+    "id": 13,
+    "name": "Comedy Night",
+    "date": "21:00 • 19th May 2023"
+  },
+  {
+    "id": 14,
+    "name": "Food Festival",
+    "date": "13:30 • 30th Sept 2023"
+  },
+  {
+    "id": 15,
+    "name": "Fitness Bootcamp",
+    "date": "8:00 • 7th Jan 2024"
+  },
+  {
+    "id": 16,
+    "name": "Photography Workshop",
+    "date": "11:15 • 11th Nov 2023"
+  },
+  {
+    "id": 17,
+    "name": "Dance Competition",
+    "date": "16:30 • 22nd Feb 2024"
+  },
+  {
+    "id": 18,
+    "name": "Music Concert",
+    "date": "20:30 • 3rd Aug 2023"
+  },
+  {
+    "id": 19,
+    "name": "Networking Event",
+    "date": "18:45 • 16th May 2023"
+  },
+  {
+    "id": 20,
+    "name": "Chess Tournament",
+    "date": "14:00 • 9th July 2023"
+  },
+  {
+    "id": 21,
+    "name": "Cooking Class",
+    "date": "15:45 • 28th April 2023"
+  },
+  {
+    "id": 22,
+    "name": "Robotics Expo",
+    "date": "12:30 • 6th June 2024"
+  },
+  {
+    "id": 23,
+    "name": "Environmental Cleanup",
+    "date": "9:00 • 17th March 2023"
+  },
+  {
+    "id": 24,
+    "name": "Film Premiere",
+    "date": "19:45 • 5th Nov 2023"
+  },
+  {
+    "id": 25,
+    "name": "Science Fiction Convention",
+    "date": "10:30 • 14th Sept 2023"
+  },
+  {
+    "id": 26,
+    "name": "Craft Fair",
+    "date": "11:45 • 20th May 2023"
+  },
+  {
+    "id": 27,
+    "name": "Yoga Retreat",
+    "date": "7:30 • 2nd July 2024"
+  },
+  {
+    "id": 28,
+    "name": "Motivational Seminar",
+    "date": "15:15 • 12th June 2023"
+  },
+  {
+    "id": 29,
+    "name": "Fishing Tournament",
+    "date": "6:00 • 8th April 2023"
+  },
+  {
+    "id": 30,
+    "name": "Virtual Reality Expo",
+    "date": "17:30 • 19th Oct 2023"
+  },
+  {
+    "id": 31,
+    "name": "Cultural Festival",
+    "date": "14:20 • 23rd July 2023"
+  },
+  {
+    "id": 32,
+    "name": "Car Show",
+    "date": "12:15 • 10th Aug 2023"
+  },
+  {
+    "id": 33,
+    "name": "Gardening Workshop",
+    "date": "16:00 • 4th May 2023"
+  },
+  {
+    "id": 34,
+    "name": "Poetry Slam",
+    "date": "20:15 • 27th Nov 2023"
+  },
+  {
+    "id": 35,
+    "name": "Fitness Challenge",
+    "date": "8:30 • 15th Feb 2024"
+  },
+  {
+    "id": 36,
+    "name": "Beer Tasting",
+    "date": "18:30 • 9th Jan 2023"
+  },
+  {
+    "id": 37,
+    "name": "Trivia Night",
+    "date": "19:20 • 6th June 2023"
+  },
+  {
+    "id": 38,
+    "name": "Antique Fair",
+    "date": "11:00 • 18th April 2023"
+  },
+  {
+    "id": 39,
+    "name": "Tech Hackathon",
+    "date": "22:00 • 3rd Aug 2024"
+  },
+  {
+    "id": 40,
+    "name": "Dog Show",
+    "date": "13:45 • 21st Jan 2023"
+  },
+  {
+    "id": 41,
+    "name": "Film Noir Screening",
+    "date": "20:45 • 14th Oct 2023"
+  },
+  {
+    "id": 42,
+    "name": "Community Picnic",
+    "date": "12:45 • 8th July 2023"
+  },
+  {
+    "id": 43,
+    "name": "Virtual Fitness Class",
+    "date": "16:45 • 27th May 2024"
+  },
+  {
+    "id": 44,
+    "name": "Game Development Workshop",
+    "date": "15:30 • 10th Sept 2023"
+  },
+  {
+    "id": 45,
+    "name": "Sustainability Forum",
+    "date": "14:10 • 19th April 2023"
+  },
+  {
+    "id": 46,
+    "name": "Open Mic Night",
+    "date": "19:30 • 22nd June 2023"
+  },
+  {
+    "id": 47,
+    "name": "Archery Competition",
+    "date": "11:30 • 12th Nov 2023"
+  },
+  {
+    "id": 48,
+    "name": "Pottery Workshop",
+    "date": "16:15 • 5th Feb 2024"
+  },
+  {
+    "id": 49,
+    "name": "Chess Championship",
+    "date": "14:45 • 28th May 2023"
+  },
+  {
+    "id": 50,
+    "name": "Rock Climbing Adventure",
+    "date": "9:15 • 17th July 2023"
+  },
+  {
+    "id": 51,
+    "name": "DIY Craft Fair",
+    "date": "13:20 • 2nd April 2023"
+  },
+  {
+    "id": 52,
+    "name": "Robot Soccer Tournament",
+    "date": "18:00 • 9th Sept 2024"
+  },
+  {
+    "id": 53,
+    "name": "Classic Car Rally",
+    "date": "12:00 • 15th Aug 2023"
+  },
+  {
+    "id": 54,
+    "name": "Fashion Photography Workshop",
+    "date": "15:45 • 7th Nov 2023"
+  },
+  {
+    "id": 55,
+    "name": "Virtual Reality Gaming Night",
+    "date": "20:30 • 26th May 2024"
+  },
+  {
+    "id": 56,
+    "name": "Historical Walking Tour",
+    "date": "10:45 • 11th April 2023"
+  },
+  {
+    "id": 57,
+    "name": "Board Game Marathon",
+    "date": "16:30 • 18th June 2023"
+  },
+  {
+    "id": 58,
+    "name": "Outdoor Yoga Session",
+    "date": "7:00 • 3rd July 2024"
+  },
+  {
+    "id": 59,
+    "name": "Bird Watching Expedition",
+    "date": "14:15 • 20th Feb 2023"
+  },
+  {
+    "id": 60,
+    "name": "Technology Showcase",
+    "date": "19:15 • 12th Oct 2023"
+  }
+]
